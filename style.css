@@ -1,0 +1,129 @@
+header, main, footer {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 10vh;
+    background: #000000;
+}
+
+main {
+    width: 100%;
+    height: 75vh;
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: 15vh;
+    background: #000000;
+    color: #ffffff;
+}
+
+#logo {
+    width: 50%;
+    padding-left: 4%;
+}
+
+#akibei {
+    height: 48px;
+    align-items: left;
+}
+
+#opciones {
+    width: 50%;
+    padding-left: 55%;
+}
+
+.modelo {
+    border: 1px solid black;
+    min-height: 300px;
+    min-width: 300px;
+
+}
+
+.precio {
+    justify-content: center;
+    display: flex;
+    font-size: 4ex;
+}
+
+.camiseta {
+    height: 250px;
+    padding-left: 9%;
+}
+
+#redes {
+    width: 50%;
+    padding-left: 5%;
+    float: left;
+}
+
+#contacto {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}
+
+input {
+    font-size: 2.6ex;
+}
+
+#titulocontacto {
+    width: 100%;
+    padding-left: 17%;
+
+}
+
+#formulario {
+    width: 30%;
+    padding-left: 5%;
+}
+
+#imgcontacto {
+    width: 40%;
+    border: 1px solid black;
+    min-height: 250px;
+    min-width: 250px;
+}
+
+#imgmodelo {
+    width: 50%;
+
+}
+
+#mainimg {
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+}
+
+.imglite {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+#descripcion {
+    width: 40%;
+    height: 80%;
+    margin: 2px;
+    padding: 2px;
+}
+#datoscamiseta {
+    margin: 4px;
+    padding: 4px;
+}
